@@ -19,8 +19,8 @@ function setup() {
 
   let cols = 16;
   let rows = 16;
-  let cellW = 1024 / cols;
-  let cellH = 1024 / rows;
+  let cellW = windowWidth / cols;
+  let cellH = windowHeight / rows;
 
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {
